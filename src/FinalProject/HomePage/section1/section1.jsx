@@ -1,8 +1,7 @@
 import React, {useState} from "react";
 import PropTypes from "prop-types";
 import styles from "./section1.module.css";
-import {Route,Switch, Link} from "react-router-dom"
-import Election1 from "../../2020Election/Election1/Election1.jsx"
+import {Link} from "react-router-dom"
 const Section1 = (props) => {
   const [count, setCount]=useState(0)
   let left;

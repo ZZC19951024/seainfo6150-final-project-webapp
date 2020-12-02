@@ -17,11 +17,17 @@ const Technology = (props) => {
     );
   }
   return (
-	<div>
+	<div className={styles.wrapper}>
+	  <div className={styles.headBanner}>
+	    <h1>
+		Technology
+		<div>The latest news on the Technology</div>
+		</h1>
+	  </div>
 	  <section className={styles.section1}>
 	    <div className={styles.topNews}>
-		<img className={styles.section1Pic} src={props.articles[12].image} alt="section1Pic"/>
-		<Link to="/Technology1" dangerouslySetInnerHTML={{ __html: props.articles[12].shortText }} />
+		<img className={styles.section1Pic} src={props.articles[15].image} alt="section1Pic"/>
+		<Link to="/Technology4" dangerouslySetInnerHTML={{ __html: props.articles[15].shortText }} />
 		</div>
 		{right}
 	  </section>

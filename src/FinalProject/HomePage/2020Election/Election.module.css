@@ -11,21 +11,13 @@
 .header{
 	text-align:center;
 }
-.pic1{
+.pic{
 	width:100%;
 	height:auto;
 	align-self:center;
+	margin-bottom:20px;
 }
-.pic2{
-	width:100%;
-	height:auto;
-	align-self:center;
-}
-.pic3{
-	width:100%;
-	height:auto;
-	align-self:center;
-}
+
 
 .news1{
 	width:400px;
@@ -36,11 +28,15 @@
 	width:400px;
 	display:flex;
 	flex-direction:column;
+	border-left: 1px solid #eee;
+	padding-left: 50px;
 }
 .news3{
 	width:400px;
 	display:flex;
 	flex-direction:column;
+	border-left: 1px solid #eee;
+	padding-left: 50px;
 
 }
 .contentNews{
@@ -50,7 +46,7 @@
 	justify-content:space-between;
 	height:200px;
 	width:1200px;
-	border:2px solid;
+	border-style:double;
 	align-self:center;
 	padding:50px;
 }

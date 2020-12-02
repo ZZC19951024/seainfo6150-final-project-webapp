@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./COVID-19.module.css";
-import {Route,Switch, Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 const COVID_19 = (props) => {
 

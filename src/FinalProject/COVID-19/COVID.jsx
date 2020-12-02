@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./COVID.module.css";
-import {Route,Switch, Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 const COVID = (props) => {
   let right;
@@ -17,7 +17,13 @@ const COVID = (props) => {
     );
   }
   return (
-	<div>
+	<div className={styles.wrapper}>
+	  <div className={styles.headBanner}>
+	    <h1>
+		Coronavirus
+		<div>The latest news on the coronavirus</div>
+		</h1>
+	  </div>
 	  <section className={styles.section1}>
 	    <div className={styles.topNews}>
 		<img className={styles.section1Pic} src={props.articles[4].image} alt="section1Pic"/>

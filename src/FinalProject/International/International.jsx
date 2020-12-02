@@ -17,7 +17,13 @@ const International = (props) => {
     );
   }
   return (
-	<div>
+	<div className={styles.wrapper}>
+	  <div className={styles.headBanner}>
+	    <h1>
+		International
+		<div>The latest news on the International</div>
+		</h1>
+	  </div>
 	  <section className={styles.section1}>
 	    <div className={styles.topNews}>
 		<img className={styles.section1Pic} src={props.articles[8].image} alt="section1Pic"/>
