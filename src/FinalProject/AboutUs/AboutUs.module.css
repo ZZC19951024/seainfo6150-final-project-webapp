@@ -1,0 +1,13 @@
+.wrapper{
+	display:flex;
+	flex-direction:column;
+}
+.article{
+	border:1px solid;
+	padding:20px;
+	width:1000px;
+	align-self:center;
+}
+.header{
+	text-align:center;
+}

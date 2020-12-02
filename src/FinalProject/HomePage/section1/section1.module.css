@@ -1,0 +1,30 @@
+.wrapper{
+	margin-top:20px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.newsPic{
+	width:100%;
+	height:auto;
+	align-self:center;
+}
+
+.right{
+	display:flex;
+	width:1200px;
+	justify-content:space-around;
+
+}
+.left{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+}
+
+.news{
+	width:50%;
+	display:flex;
+	flex-direction:column;
+  
+}
