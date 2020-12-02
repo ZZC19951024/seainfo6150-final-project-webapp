@@ -86,7 +86,7 @@ function App() {
 		<Link  to="/Political"><h2 className="subTitle">Political</h2></Link>
 		</li>
 	  </ul>
-      <Switch>
+      <Switch className="content">
         <Route exact path="/"><HomePage articles={fetchedData} /></Route>
 		
 		<Route exact path="/Election1"><Election1 articles={fetchedData} /></Route>

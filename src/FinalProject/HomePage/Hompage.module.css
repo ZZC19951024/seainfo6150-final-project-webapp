@@ -3,6 +3,14 @@
 	display:flex;
 	justify-content:space-evenly;
 }
+.wrapper{
+	display:flex;
+	flex-direction:column;
+}
+.section{
+	width:1500px;
+	align-self:center;
+}
 
 .divider {								/* minor cosmetics */
             display: table; 

@@ -9,16 +9,16 @@ import {Route,Switch, Link} from "react-router-dom"
 const HomePage = (props) => {
 
   return (
-	<div>
-	  <section>
+	<div className={Styles.wrapper}>
+	  <section className={Styles.section}>
 	    <Section1 articles={props.articles}/>
 	  </section>
 	  <div className={Styles.divider}><span></span><span>COVID-19</span><span></span></div>
-	  <section>
+	  <section className={Styles.section}>
 	    <COVID_19 articles={props.articles}/>
 	  </section>
 	  <div className={Styles.divider}><span></span><span>2020 Election</span><span></span></div>
-	  <section>
+	  <section className={Styles.section}>
 	    <Election articles={props.articles}/>
 	  </section>
 	  <section className={Styles.banner}>

@@ -34,12 +34,12 @@ const Section1 = (props) => {
     <div className={styles.wrapper}>
 		{left}
 		<div className={styles.right}>
-		  <button className={styles.previous} onClick={previous}>previous</button>
+		  <button className={styles.button} onClick={previous}> 《 </button>
 		  <div className={styles.news}>
 			<img className={styles.newsPic} src={props.articles[count].image} alt="newsPic"/>
 			<Link to={props.articles[count].slug} dangerouslySetInnerHTML={{ __html: props.articles[count].shortText }} />
 		  </div>
-		  <button className={styles.next} onClick={next}>next</button>
+		  <button className={styles.button} onClick={next}> 》 </button>
 		</div>
 	</div>
   );

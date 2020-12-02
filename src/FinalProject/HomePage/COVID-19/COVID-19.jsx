@@ -9,15 +9,15 @@ const COVID_19 = (props) => {
 	<div className={styles.wrapper}>
 	  <div className={styles.picNews}>
 	    <div className={styles.news1}>
-		  <img className={styles.pic1} src={props.articles[4].image} alt="pic1"/>
+		  <img className={styles.pic} src={props.articles[4].image} alt="pic1"/>
 		  <Link to="/COVID1" dangerouslySetInnerHTML={{ __html: props.articles[4].title }} />
 		</div>
 		<div className={styles.news2}>
-		  <img className={styles.pic2} src={props.articles[5].image} alt="pic2"/>
+		  <img className={styles.pic} src={props.articles[5].image} alt="pic2"/>
 		  <Link to="/COVID2" dangerouslySetInnerHTML={{ __html: props.articles[5].title }} />
 		</div>
 		<div className={styles.news3}>
-		  <img className={styles.pic3} src={props.articles[6].image} alt="pic3"/>
+		  <img className={styles.pic} src={props.articles[6].image} alt="pic3"/>
 		  <Link to="/COVID3" dangerouslySetInnerHTML={{ __html: props.articles[6].title }} />
 		</div>
 	  </div>
