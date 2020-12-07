@@ -44,8 +44,10 @@
 	flex-direction:column;
 	justify-content:space-between;
 	height:200px;
-	width:1200px;
+	width:80%;
 	align-self:center;
 	border-style:double;
 	padding:50px;
 }
+
+

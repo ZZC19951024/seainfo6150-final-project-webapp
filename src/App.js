@@ -64,26 +64,26 @@ function App() {
   return isEmpty(fetchedData) ? null : (
     <div className="App">
 	  <ul className="navigation">
-	    <li>
+	    <li >
 		<Link  to="/"><img className="logo" src={logo} alt="Logo"/></Link>
 		</li>
-		<li>
-		<Link  to="/COVID"><h2 className="subTitle">COVID-19</h2></Link>
+		<li className="subTitle">
+		<Link  to="/COVID"><h2 >COVID-19</h2></Link>
 		</li>
-		<li>
-		<Link  to="/Election"><h2 className="subTitle">2020 Election</h2></Link>
+		<li className="subTitle">
+		<Link  to="/Election"><h2 >2020 Election</h2></Link>
 		</li>
-		<li>
-		<Link  to="/International"><h2 className="subTitle">International</h2></Link>
+		<li className="subTitle">
+		<Link  to="/International"><h2 >International</h2></Link>
 		</li>
-		<li>
-		<Link  to="/Technology"><h2 className="subTitle">Technology</h2></Link>
+		<li className="subTitle">
+		<Link  to="/Technology"><h2 >Technology</h2></Link>
 		</li>
-		<li>
-		<Link  to="/Entertainment"><h2 className="subTitle">Entertainment</h2></Link>
+		<li className="subTitle">
+		<Link  to="/Entertainment"><h2 >Entertainment</h2></Link>
 		</li>
-		<li>
-		<Link  to="/Political"><h2 className="subTitle">Political</h2></Link>
+		<li className="subTitle">
+		<Link  to="/Political"><h2 >Political</h2></Link>
 		</li>
 	  </ul>
       <Switch className="content">
